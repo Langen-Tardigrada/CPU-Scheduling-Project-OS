@@ -16,7 +16,7 @@ while i<20:
     x = random.randint(1,100)
     i += 1
     
-    # condition: number of brust times have 20%(value35,50),40%(value20,30),40%(value2,8)
+    # condition: number of brust times have 20%(value35,40),40%(value20,30),40%(value2,8)
     if x>0 and x<=20 and in20<4:    
         twenty_proc.append(random.randint(35,40))
         in20 += 1
@@ -42,7 +42,7 @@ while i<40:
     x = random.randint(1,100)
     i += 1
 
-    # condition: number of brust times have 20%(value35,50),30%(value20,30),50%(value2,8)
+    # condition: number of brust times have 20%(value35,40),30%(value20,30),50%(value2,8)
     if x>0 and x<=20 and in20<8:    
         forty_proc.append(random.randint(35,40))
         in20 += 1
@@ -68,7 +68,7 @@ while i<60:
     x = random.randint(1,100)
     i += 1
 
-    # condition: number of brust times have 10%(value35,50),20%(value20,30),70%(value2,8)
+    # condition: number of brust times have 10%(value35,40),20%(value20,30),70%(value2,8)
     if x>0 and x<=10 and in20<6:    
         sixty_proc.append(random.randint(35,40))
         in20 += 1
