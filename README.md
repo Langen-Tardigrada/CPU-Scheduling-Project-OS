@@ -1,4 +1,4 @@
-# CPU_Scheduling-Project-OS
+# CPU-Scheduling-Project-OS
 
 
 -data sets can random with random process. data sets save to text files at process folder.
