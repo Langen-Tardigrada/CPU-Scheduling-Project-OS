@@ -8,19 +8,18 @@ turn_gp_SJF = []
 
 turn_gp_RR = []
 
-# import file "./" run with python
-# import filr "../" run with jupyter
-f = open("../data_of_time/FCFS/sixtyTurnARTime.txt","r")
+# import file "./" run with python and jupyter
+f = open("./data_of_time/FCFS/sixtyTurnARTime.txt","r")
 for i in f:
     turn_gp_FCFS.append(int(i.strip("\n")))
 f.close()
 
-f = open("../data_of_time/SJF/sixtyTurnARTime.txt","r")
+f = open("./data_of_time/SJF/sixtyTurnARTime.txt","r")
 for i in f:
     turn_gp_SJF.append(int(i.strip("\n")))
 f.close()
 
-f = open("../data_of_time/RR/sixtyTurnARTime.txt","r")
+f = open("./data_of_time/RR/sixtyTurnARTime.txt","r")
 for i in f:
     turn_gp_RR.append(int(i.strip("\n")))
 f.close()
